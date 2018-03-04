@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'ACP_AUTOGROUPS_NOTIFY_EXPLAIN'			=> 'Enviar uma notificação para usuários depois que foram automaticamente adicionados ou removidos deste grupo.',
 
 	'ACP_AUTOGROUPS_EXEMPT_GROUP'			=> 'Configure as exceções para o grupo padrão',
-	'ACP_AUTOGROUPS_EXEMPT_GROUP_EXPLAIN'	=> 'O grupo padrão do usuário não será autometicamente alterado se estiver selecionado nesta lista. Selecione diversos grupos segurando <samp>CTRL</samp> (ou <samp>&#8984;CMD</samp> no Mac) e clicando sobre o grupo.',
+	'ACP_AUTOGROUPS_EXEMPT_GROUP_EXPLAIN'	=> 'O grupo padrão do usuário não será automaticamente alterado se estiver selecionado nesta lista. Selecione diversos grupos segurando <samp>CTRL</samp> (ou <samp>&#8984;CMD</samp> no Mac) e clicando sobre o grupo.',
 
 	'ACP_AUTOGROUPS_CREATE_RULE'	=> 'Criar novo Autogrupo',
 	'ACP_AUTOGROUPS_SUBMIT_SUCCESS'	=> 'Autogrupo configurado com sucesso.',
@@ -66,11 +66,11 @@ $lang = array_merge($lang, array(
 	'ACP_AUTOGROUPS_EMPTY'			=> 'Não existem Autogrupos.',
 	'ACP_AUTOGROUPS_NO_GROUPS'		=> 'Não existem grupos disponíveis',
 	'ACP_AUTOGROUPS_INVALID_GROUPS'	=> 'Um erro ocorreu. Um grupo de usuários válido não estava selecionado. <br /> Autogrupos somente pode ser usado com grupos definidos de usuários, que podem ser criados em na página "Gerenciar grupos".',
-	'ACP_AUTOGROUPS_INVALID_RANGE'	=> 'Um erro ocorreu. Mínimo e máxima valores podem não estar preparado para a mesma valor.',
+	'ACP_AUTOGROUPS_INVALID_RANGE'	=> 'Um erro ocorreu. Os valores mínimos e máximos não podem ser configurados para o mesmo valor.',
 
 	// Conditions
 	'AUTOGROUPS_TYPE_BIRTHDAYS'		=> 'Idade do usuário',
 	'AUTOGROUPS_TYPE_MEMBERSHIP'	=> 'Dias que o usuário é membro',
-	'AUTOGROUPS_TYPE_POSTS'			=> 'Publicações',
-	'AUTOGROUPS_TYPE_WARNINGS'		=> 'Alertas',
+	'AUTOGROUPS_TYPE_POSTS'			=> 'Posts',
+	'AUTOGROUPS_TYPE_WARNINGS'		=> 'Advertência',
 ));
