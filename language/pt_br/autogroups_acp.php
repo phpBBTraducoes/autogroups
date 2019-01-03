@@ -2,7 +2,7 @@
 /**
 *
 * Auto Groups extension for the phpBB Forum Software package.
-* Brazilian Portuguese translation by MarcosFPo and update by eunaumtenhoid (c) 2017 [ver 2.0.0] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by MarcosFPo and update by eunaumtenhoid (c) 2017 [ver 2.0.1] (https://github.com/phpBBTraducoes)
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 * 
@@ -70,6 +70,7 @@ $lang = array_merge($lang, array(
 
 	// Conditions
 	'AUTOGROUPS_TYPE_BIRTHDAYS'		=> 'Idade do usuário',
+	'AUTOGROUPS_TYPE_LASTVISIT'		=> 'Dias desde a última visita',
 	'AUTOGROUPS_TYPE_MEMBERSHIP'	=> 'Dias que o usuário é membro',
 	'AUTOGROUPS_TYPE_POSTS'			=> 'Posts',
 	'AUTOGROUPS_TYPE_WARNINGS'		=> 'Advertência',
