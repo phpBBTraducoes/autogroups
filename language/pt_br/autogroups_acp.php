@@ -2,7 +2,7 @@
 /**
 *
 * Auto Groups extension for the phpBB Forum Software package.
-* Brazilian Portuguese translation by MarcosFPo and update by eunaumtenhoid (c) 2017 [ver 2.0.1] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by MarcosFPo and update by eunaumtenhoid [2017][ver 2.0.1] (https://github.com/phpBBTraducoes)
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 * 
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'ACP_AUTOGROUPS_MIN_VALUE'				=> 'Valor mínimo',
 	'ACP_AUTOGROUPS_MIN_VALUE_EXPLAIN'		=> 'Usuários serão adicionados para este grupo, se eles excederam ao valor mínimo.',
 	'ACP_AUTOGROUPS_MAX_VALUE'				=> 'Valor máximo',
-	'ACP_AUTOGROUPS_MAX_VALUE_EXPLAIN'		=> 'Usuários serão removidos deste grupo, se eles excederam ao valor máximo. Deixe vazio, se não deseja que os usuários sejam removidos do grupo.',
+	'ACP_AUTOGROUPS_MAX_VALUE_EXPLAIN'		=> 'Usuários serão removidos deste grupo, se eles excederam ao valor máximo. Defina isso como 0 se você não quiser que os usuários sejam removidos',
 	'ACP_AUTOGROUPS_DEFAULT'				=> 'Configure o grupo padrão',
 	'ACP_AUTOGROUPS_DEFAULT_EXPLAIN'		=> 'Transforme o grupo em novo grupo padrão do usuário.',
 	'ACP_AUTOGROUPS_NOTIFY'					=> 'Notificar o usuário',
